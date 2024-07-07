@@ -1,0 +1,7 @@
+{
+    "name": "erick/form_contato",
+    "description": "Projeto para um envio de contato através de um formulário",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
