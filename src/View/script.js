@@ -2,7 +2,6 @@ $(document).ready(function () {
     $('input, textarea').on('focus', function() {
         $('#errorMessages').hide();
     });
-
     $('#btnEnviar').click(function () {
 
         var obj = {
@@ -19,7 +18,7 @@ $(document).ready(function () {
         }
 
         $.ajax({
-            url: "../../index.php",
+            url: "./src/Controller/email.php",
             type: "GET",
             data: obj,
             beforeSend: function () {
