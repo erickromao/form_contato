@@ -92,5 +92,12 @@ width: 40%;
 }
 .contact-info{
     margin-top:0;
+    margin-bottom:0;
+}
+.contact-info img{
+    margin-bottom: 0;
+}
+.contact-info h2{
+    margin-bottom: 5%;
 }
 }
